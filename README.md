@@ -14,7 +14,7 @@ To fully use all the features of **Chirpy**, you need to copy the other critical
 └── index.html
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][cd] workflow to here, so that you can start writing in minutes.
 
 ## Prerequisites
 
@@ -26,8 +26,8 @@ Sign in to GitHub and [**use this template**][use-template] to generate a brand 
 
 Then clone it to your local machine and run:
 
-```
-$ bundle
+```bash
+bundle
 ```
 
 ## Usage
@@ -41,5 +41,5 @@ This work is published under [MIT][mit] License.
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[cd]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
