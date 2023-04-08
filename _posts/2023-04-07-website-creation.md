@@ -59,8 +59,8 @@ Since this was a personal website, I used the `<username>.github.io` format for 
 
 3. Go to the [Manage Custom Domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) and follow the instructions to add the domain name to the repository.
 
-   - Here, I followed the section titled "Configuring a subdomain", which configres the GitHub Pages website to use `www.dominhquan.com` instead of `QuanDo2000.github.io`.
-   - For Google Domains, this involved adding a CNAME record to the domain name's DNS settings, specifically the Custom records section. The Hostname was `www` and the Data was `QuanDo2000.github.io`.
+   - Here, I followed the sections titled "Configuring a subdomain" and "Configuring an apex domain" because I have an apex domain name (i.e. `dominhquan.com`) and my website is pointed to the subdomain `www`.
+   - For Google Domains, this involved adding a CNAME record and an A record to the domain name's DNS settings, specifically the Custom records section.
    - This step allows you to access the website at `www.dominhquan.com` instead of `QuanDo2000.github.io`.
 
 ### 3. Design
